@@ -1,0 +1,147 @@
+body{
+	background-color: #DAF0EF
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #DAF0EF;
+	font-size: 20px;
+
+}
+body h1{
+	background-color: #FE07F9 
+}
+.myresume{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.resume{
+	padding-left: 5%;
+}
+.resume1{
+	padding-right: 5%;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px){
+	body{
+	background-color: #DAF0EF
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #DAF0EF;
+	font-size: 20px;
+	width: 98%;
+}
+body h1{
+	background-color: #FE07F9 
+}
+.myresume{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.resume{
+	padding-left: 5%;
+	width: 50%;
+}
+.resume1{
+	padding-right: 5%;
+}
+
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+	body{
+	background-color: #DAF0EF
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #DAF0EF;
+	font-size: 20px;
+	
+}
+img{
+	height: 20%;
+}
+body h1{
+	background-color: #FE07F9 
+}
+.myresume{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.resume{
+	padding-left: 5%;
+	width: 45%;
+}
+.resume1{
+	padding-right: 5%;
+	width: 55%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	body{
+	background-color: #DAF0EF
+    margin: 1%;
+	padding: 1%;
+	font-family: sans-serif;
+	background: #DAF0EF;
+	font-size: 20px;
+	
+}
+img{
+	width: 50%;
+	height: 25%;
+}
+body h1{
+	background-color: #FE07F9 
+}
+.myresume{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.resume{
+	padding-left: 10%;
+	width: 48%;
+}
+.resume1{
+	padding-right: 10%;
+	width: 52%;
+}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+	body{
+	background-color: #DAF0EF
+    margin: 1%;
+	padding: 1%;
+	font-family: sans-serif;
+	background: #DAF0EF;
+	font-size: 20px;
+	
+}
+img{
+	width: 50%;
+	height: 30%;
+}
+body h1{
+	background-color: #FE07F9 
+}
+.myresume{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.resume{
+	padding-left: 1%;
+	width: 50%;
+}
+.resume1{
+	padding-right: 1%;
+	width: 48%;
+}
+}
+h1,h2,p,table,img{
+	word-wrap: break-word;
+}
